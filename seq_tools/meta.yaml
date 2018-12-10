@@ -19,7 +19,7 @@ requirements:
     - biopython 
     - pandas 
     - r-png
-    - r-gglot2
+    - r-ggplot2
     - emboss
     - blast
     
@@ -29,7 +29,7 @@ requirements:
     - biopython 
     - pandas 
     - r-png
-    - r-gglot2
+    - r-ggplot2
     - emboss
     - blast
 
