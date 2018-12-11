@@ -4,7 +4,6 @@ package:
 
 source:
   git_url: git@github.com:intbio/seq_tools
-#  md5: d7936180ad4037962401c2302c1edd19
 #  patches:
    # List any patch files here
    # - fix.patch
@@ -43,9 +42,6 @@ test:
     # You can put test commands to be run here.  Use this to test that the
     # entry points work.
 
-    # - HYDROID_test_exp --help
-    # - HYDROID_test_pred --help
-
   # You can also put a file called run_test.py in the recipe that will be run
   # at test time.
 
@@ -55,9 +51,9 @@ test:
 
 about:
   home: https://github.com/intbio/seq_tools
-  license: Public Domain
+  license: CC0
   summary: 'A python package for visualization and manipulation of sequences and alignments'
-  license_family: OTHER
+  license_family: CC
 
 # See
 # http://docs.continuum.io/conda/build.html for
