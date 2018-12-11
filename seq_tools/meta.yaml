@@ -14,7 +14,7 @@ build:
 
 requirements:
   build:
-    - python>3
+    - python
     - setuptools
     - biopython 
     - pandas 
@@ -24,7 +24,7 @@ requirements:
     - blast
     
   run:
-    - python>3
+    - python
     - setuptools
     - biopython 
     - pandas 
@@ -56,7 +56,7 @@ test:
 about:
   home: https://github.com/intbio/seq_tools
   license: Public Domain
-  summary: 'Sequence tools'
+  summary: 'A python package for visualization and manipulation of sequences and alignments'
   license_family: OTHER
 
 # See
