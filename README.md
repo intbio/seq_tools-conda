@@ -1,5 +1,6 @@
 # seq_tools-conda
 
+This packs https://github.com/intbio/seq_tools/tree/master/seq_tools into conda
 
 ## Building and uploading to Anaconda cloud
 ```
