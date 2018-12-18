@@ -15,7 +15,7 @@ conda convert --platform all path_to_package -o output/
 #Manually upload for OSX and Linux
 ```
 
-## Installing HYDROID from Anaconda cloud
+## Installing  from Anaconda cloud
 
 ```
 conda install -c intbio seq_tools
