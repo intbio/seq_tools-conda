@@ -11,7 +11,7 @@ anaconda login
 conda-build -c r -c conda-forge -c bioconda seq_tools --force
 anaconda upload path_to_package #or toggle automatic upload with: conda config --set anaconda_upload True
 conda convert --platform all path_to_package -o output/
-#find output/ -name 'seq_tools*' -exec anaconda upload {} \;
+find output/ -name 'seq_tools*' -exec anaconda upload --force {} \;
 #Manually upload for OSX and Linux
 ```
 
